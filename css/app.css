@@ -1,1 +1,18 @@
 /* Write your code here */
+.announcement {
+    background-color: hsla(205, 32%, 49%, 1);
+    border: solid 3px #444;
+    padding: 10px;
+    position: relative;
+    
+    
+}
+
+.close {
+    background-color: hsla(205, 8%, 50%, 1);
+    border: solid 3px #444;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    
+}
