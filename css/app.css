@@ -1,1 +1,48 @@
 /* Write your code here */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+img {
+    width: 24%;
+    margin: 3px;
+
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay img {
+    width: 400px;
+}
+
+.overlay p {
+    color: #ddd;
+}
